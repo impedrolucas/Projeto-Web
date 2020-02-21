@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Americanas</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            display: flex;
+            height: 400px;
+            background: #ccc;
+            justify-content: center;
+            align-items: center;
+            font: 88px Arial
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: #666;
+        }
+        a{ 
+            font-family: Bebas NEUE;
+            font-size:x-large;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> <img src="./images/logo1.png" height="40px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Início<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Ficha Tec.html">Ficha Técnica</a>
+                </li>
+                <li class="nav-item dropdown">
+
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link enabled" href="./Fotos.html" tabindex="-1" aria-enabled="true">Outros Celulares</a>
+                </li>
+                
+              </ul>
+              <form class="form-inline my-4 my-lg-3">
+                <input class="form-control mr-sm-2" type="search" placeholder="Tem tuudo, pesquise :)" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </nav>
+	<!-- Fim do Menu -->
+	<!-- Slide -->
+	<section>
+		<div id="slide">
+			<h1>VENDE TUDO E TEM DO LADO!!!!!!</h1>
+		
+		</div>
+    </section>
+</div>
+<div>
+<img src="./images/topo.jpg" width="100%">
+
+
+</div>
+        <div class="swiper-container">
+            <div class="w3-container w3-black" style="background-color: blanchedalmond;" ">
+                <h1 style="font-family: Bebas NEUE; font-size: 50px; text-align: center;">ALGUNS DOS MELHORES CELULARES DE 2020  </h1>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/iphonex.png" width="200px alt="></div>
+                <div class="swiper-slide"><img src="./images/redmi-note-8-pro.png" width="400px alt="></div>
+                <div class="swiper-slide"><img src="./images/Galaxy-S9.png" width="600px alt="></div>
+                <div class="swiper-slide"><img src="./images/iphone11.png" width="400px alt="></div>
+                
+            </div>
+            <div class="w3-container w3-black" style="background-color: blanchedalmond;" ">
+                <h1 style="font-family: Bebas NEUE; font-size: 50px; text-align: center;">CONSULTE A FICHA TÉCNICA</h1>
+            </div>
+            <div class="swiper-pagination"></div>    
+        </div>
+
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination:{
+                el: '.swiper-pagination',
+                autoHeight: true
+            }
+        })
+    </script>
+</body>
+</html>

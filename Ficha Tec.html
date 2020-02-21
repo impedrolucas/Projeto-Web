@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ficha Técnica</title>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        section { 
+            
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        div.polaroid {
+  width: 30%;
+  background-color: #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 22px;
+  border: 10px solid #000;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+    </style>
+</head>
+
+<body style="background-color: darkred;">
+    
+    <header>
+		<nav>
+			<ul>
+				<li><a href="./index.html" style="color:white; font-family: Bebas NEUE; font-size: 20px;">Início</a></li>
+				<li><a href="./Ficha Tec.html" style="color:white; font-family: Bebas NEUE; font-size: 20px;">Ficha Técnica</a></li>
+				<li><a href="./Fotos.html" style="color:white; font-family: Bebas NEUE; font-size: 20px;">Outros Aparelhos</a></li>
+			</ul>
+		</nav>
+	</header>
+    
+    
+    <section class="wow flash">
+        <div class="polaroid">
+            <img src="./images/redmi-note-8-pro.png" style="width:400px" id="img"
+            data-zoom-image="./images/redmi-note-8-pro.png">
+            <div class="container">
+            <p style="color: black;">O Redmi Note 8 Pro é, sem dúvida, um dos smartphones Android mais avançados e abrangentes disponíveis no mercado, graças ao seu rico equipamento e recursos multimídia avançados. Tem um grande display de 6.53 polegadas com uma resolução de 2340x1080 pixel. As funcionalidades oferecidas pelo Redmi Note 8 Pro são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 128 GB.
+              </p>
+            </div>
+          </div>
+    </section>
+<hr>
+    <section class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="2s">
+        <div class="polaroid">
+            <img src="./images/Galaxy-S9.png" style="width:400px" id="img1"
+            data-zoom-image="./images/Galaxy-S9.png">
+            <div class="container">
+                <p style="color: black;">O Samsung Galaxy S9 é um dos smartphones Android mais avançados e completos que existem em circulação. Tem um grande display de 5.8 polegadas e uma resolução de 2960x1440 pixels que é uma das mais altas atualmente em circulação. As funcionalidades oferecidas pelo Samsung Galaxy S9 são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 128 GB com a possibilidade de expansão.
+                </p>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="2s">
+            <div class="polaroid">
+                <img src="./images/iphone11.png" alt="5 Terre" style="width:400px" id="img2">
+                <div class="container">
+                    <p style="color: black;">O Apple iPhone 11 Pro Max é um smartphone iOS com características inovadoras que o tornam uma excelente opção para qualquer tipo de utilização. A tela de 6.5 polegadas coloca esse Apple no topo de sua categoria. A resolução também é alta: 2688x1242 pixel. As funcionalidades oferecidas pelo Apple iPhone 11 Pro Max são muitas e top de linha. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS presente no aparelho.</p>
+                </div>
+              </div>
+            </section>
+            <hr>
+        <section class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="2s" >
+            <div class="polaroid">
+                <img src="./images/iphone.png" alt="5 Terre" style="width:350px" id="img3">
+                <div class="container">
+                    <p style="color: black;">O Apple iPhone X é um dos smartphones iOS mais avançados e completos que existem em circulação. Tem um grande display de 5.8 polegadas com uma resolução de 2436x1125 pixel. As funcionalidades oferecidas pelo Apple iPhone X são muitas e inovadoras. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 256 GB mas sem a possibilidade de expansão.
+                    </p>
+                </div>
+              </div>
+            </section>
+        
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/jquery.elevatezoom.js"></script>
+    <script>
+        
+        $('#img').elevateZoom({
+        zoomType: "inner",
+        cursor: "crosshair",
+        zoomWindowFadeIn: 100,
+        zoomWindowFadeOut: 150
+        
+   }); 
+   
+    </script>
+
+<script>
+        
+    $('#img1').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+    zoomWindowFadeIn: 100,
+    zoomWindowFadeOut: 150
+    
+}); 
+
+</script>
+
+<script>
+        
+    $('#img2').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+    zoomWindowFadeIn: 100,
+    zoomWindowFadeOut: 150
+    
+}); 
+
+</script>
+
+<script>
+        
+    $('#img3').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+    zoomWindowFadeIn: 100,
+    zoomWindowFadeOut: 150
+    
+}); 
+
+</script>
+
+</body>
+</html>
